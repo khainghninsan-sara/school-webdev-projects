@@ -2,6 +2,22 @@
   html {
     font-size: 14px;
   }
+
+  .icons a i{
+    font-size: 14px;
+    padding: 0 3px;
+    display: inline-block; /* Added display property */
+    white-space: nowrap; /* Prevents wrapping */
+  }
+
+  div.footer-links-section {
+    width: 75%;
+    margin-top: 10px;
+  }
+
+  div.footer-items {
+    margin-left: 20px;
+  }
 }
 
 .nav-hover {
@@ -85,6 +101,7 @@
   font-size: 30px;
   transition: text-shadow 0.2s, color 0.15s;
   margin: 5px 0;
+  padding: 0 5px;
 }
 
 .icons a i:hover {
